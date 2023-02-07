@@ -478,10 +478,12 @@ h2 span {
 
 .orderList-item {
     display: flex;
+	 align-items: center;
 }
 
 .orderList-img {
     margin-right: 12px;
+	 max-width: 25px;
 }
 
 .orderList-text {

@@ -1,4 +1,4 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
@@ -26,16 +26,22 @@
           <h1 class="order-title lt0">Портативне джерело живлення <span class="order-title_green">Argus</span> </h1>
           <p class="order-subTitle lt1"></p>
           <ul class="order-list">
-            <li class="orderList-item"><img alt="" class="orderList-img" src="assets/imgs/order-list1.png"><span class="orderList-text lt2">Потужність</span></li>
-            <li class="orderList-item"><img alt="" class="orderList-img" src="assets/imgs/order-list2.png"><span class="orderList-text lt3">Надійність</span></li>
-            <li class="orderList-item"><img alt="" class="orderList-img" src="assets/imgs/order-list3.png"><span class="orderList-text lt4">Максимальний<br>комфорт</span></li>
+            <li class="orderList-item"><img alt="" class="orderList-img" src="assets/imgs/help-check.png"><span class="orderList-text lt2">Потужність</span></li>
+            <li class="orderList-item"><img alt="" class="orderList-img" src="assets/imgs/help-check.png"><span class="orderList-text lt3">Надійність</span></li>
+            <li class="orderList-item"><img alt="" class="orderList-img" src="assets/imgs/help-check.png"><span class="orderList-text lt4">Максимальний<br>комфорт</span></li>
           </ul><img class="product-img product-img_mob" src="assets/imgs/product-bottle.png">
          <form class="form order_form" method="post" action="index.html">
             <div class="container">
               <h3 class="form-title lt5">Замовити зараз<br> <span class="form-title_green">по акції</span> </h3>
               <div class="prices">
-                <span class="old-prise price_old lt6">31 000 грн.</span><span class="new-prise price_main lt7">29 999 грн.</span>
-              </div><label class="form-label lt9">Ім'я: <input class="form-input" type="text" name="name"></label><label class="form-label lt10">Номер телефону: <input class="form-input" type="text" name="phone"></label>
+                <span class="old-prise price_old lt6">31 000 грн.</span><span class="new-prise price_main lt7">22 999 грн.</span>
+              </div><label class="form-label lt9">Ім'я: <input class="form-input" type="text" name="name"></label><label class="form-label lt10">Номер телефону: <input class="form-input" type="tel" name="phone" onclick="(function(event){if (!event.target.value.length){event.target.value='+38';}})(event)"
+					oninput="(function(event){const x=event.target.value.replace(/\D/g, '').match(/(\d{0,2})(\d{0})(\d{0,3})(\d{0,3})(\d{0,2})(\d{0,2})/);
+																	event.target.value='+38' + (x[4] ? ' (' + x[3] + ') ' : '' + x[3]) + x[4] + (x[5] ? '-' + x[5] : '') + (x[6] ? '-' + x[6] : '');})(event)"
+					pattern="^\+38\s[\(]?0(39|67|68|96|97|98|50|66|95|99|63|73|93|91|92|94)[\)]\s\d{3}[\-]\d{2}[\-]\d{2}$"
+					title="Формат: +38 (0XX) XXX-XX-XX. Перевірте правильність коду оператора."
+					placeholder="Ваш телефон"
+					required="required"></label>
               <div class="counter">
                 <h4 class="counter-title lt11">Пропозиція закінчується через:</h4>
                 <div class="counter-time">
@@ -266,16 +272,22 @@
           <h1 class="order-title lt87">Портативне джерело живлення <span class="order-title_green">Argus</span> </h1>
           
           <ul class="order-list">
-            <li class="orderList-item"><img alt="" class="orderList-img" src="assets/imgs/order-list1.png"><span class="orderList-text lt89">Потужність</span></li>
-            <li class="orderList-item"><img alt="" class="orderList-img" src="assets/imgs/order-list2.png"><span class="orderList-text lt90">Надійність</span></li>
-            <li class="orderList-item"><img alt="" class="orderList-img" src="assets/imgs/order-list3.png"><span class="orderList-text lt91">Максимальний<br>комфорт</span></li>
+            <li class="orderList-item"><img alt="" class="orderList-img" src="assets/imgs/help-check.png"><span class="orderList-text lt89">Потужність</span></li>
+            <li class="orderList-item"><img alt="" class="orderList-img" src="assets/imgs/help-check.png"><span class="orderList-text lt90">Надійність</span></li>
+            <li class="orderList-item"><img alt="" class="orderList-img" src="assets/imgs/help-check.png"><span class="orderList-text lt91">Максимальний<br>комфорт</span></li>
           </ul><img class="product-img product-img_mob" src="assets/imgs/product-bottle.png">
           <form class="form order_form" method="post" action="index.html" id="toform">
             <div class="container">
               <h3 class="form-title lt92">Замовити зараз<br> <span class="form-title_green">по акції</span> </h3>
               <div class="prices">
-                <span class="old-prise price_old lt93">31 000 грн.</span><span class="new-prise price_main lt94">29 999 грн.</span>
-              </div><label class="form-label lt96">Ім'я : <input class="form-input" type="text" name="name"></label><label class="form-label lt97">Номер телефону: <input class="form-input" type="text" name="phone"></label>
+                <span class="old-prise price_old lt93">31 000 грн.</span><span class="new-prise price_main lt94">22 999 грн.</span>
+              </div><label class="form-label lt96">Ім'я : <input class="form-input" type="text" name="name"></label><label class="form-label lt97">Номер телефону: <input class="form-input" type="tel" name="phone" onclick="(function(event){if (!event.target.value.length){event.target.value='+38';}})(event)"
+					oninput="(function(event){const x=event.target.value.replace(/\D/g, '').match(/(\d{0,2})(\d{0})(\d{0,3})(\d{0,3})(\d{0,2})(\d{0,2})/);
+																	event.target.value='+38' + (x[4] ? ' (' + x[3] + ') ' : '' + x[3]) + x[4] + (x[5] ? '-' + x[5] : '') + (x[6] ? '-' + x[6] : '');})(event)"
+					pattern="^\+38\s[\(]?0(39|67|68|96|97|98|50|66|95|99|63|73|93|91|92|94)[\)]\s\d{3}[\-]\d{2}[\-]\d{2}$"
+					title="Формат: +38 (0XX) XXX-XX-XX. Перевірте правильність коду оператора."
+					
+					required="required"></label>
               <div class="counter">
                 <h4 class="counter-title lt98">Пропозиція закінчується через:</h4>
                 <div class="counter-time">
@@ -317,7 +329,7 @@
             <p>
               Не пропусти можливість замовити портативне джерело живлення <br><span>ARGUS</span><br> по акції!
             </p>
-            <a href="#toform" class="link-btn btn lt12" >Замовити</a>
+            <a href="#toform" class="link-btn btn lt12">Замовити</a>
           </div>
         </div>
       </div>
@@ -357,15 +369,12 @@
           <form action='' method='POST'>
             <input type="text" name="name" value="" placeholder="Ваше ім'я" />
             <input name="phone" type="tel"
-                   aria-describedby="emailHelp"
-                   autocomplete="off"
-                   id="exampleInputEmail1"
                    onclick="(function(event){if (!event.target.value.length){event.target.value='+38';}})(event)"
                    oninput="(function(event){const x=event.target.value.replace(/\D/g, '').match(/(\d{0,2})(\d{0})(\d{0,3})(\d{0,3})(\d{0,2})(\d{0,2})/);
                                                        event.target.value='+38' + (x[4] ? ' (' + x[3] + ') ' : '' + x[3]) + x[4] + (x[5] ? '-' + x[5] : '') + (x[6] ? '-' + x[6] : '');})(event)"
                    pattern="^\+38\s[\(]?0(39|67|68|96|97|98|50|66|95|99|63|73|93|91|92|94)[\)]\s\d{3}[\-]\d{2}[\-]\d{2}$"
                    title="Формат: +38 (0XX) XXX-XX-XX. Перевірте правильність коду оператора."
-                   placeholder="Ваш телефон"
+                   
                    required="required">
             <input type="submit" value="ПЕРЕДЗВОНИТИ МЕНІ" />
           </form>
