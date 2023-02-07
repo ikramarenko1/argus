@@ -418,7 +418,7 @@ h2 span {
 .product-img {
     bottom: inherit;
     top: 50px;
-    left: 140px;
+    left: 50px;
     max-width: 876px;
     transition: all 1s ease-in;
     transform-origin: bottom center;

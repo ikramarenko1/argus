@@ -99,8 +99,7 @@
 
 #callbacker-design {
     position: fixed;
-    *
-    visibility: hidden;
+    /* visibility: hidden; */
     background-color: transparent;
     width: 100px;
     height: 100px;
@@ -111,7 +110,7 @@
     -moz-transition: visibility .5s;
     -o-transition: visibility .5s;
     transition: visibility .5s;
-    /* right: 15px; */
+    right: 15px;
     bottom: 15px;
 }
 
@@ -129,7 +128,7 @@
 #callbacker-design .callbacker-design-img-circle {
     width: 50px;
     height: 50px;
-    background: #5aaade center center no-repeat url('../img/phone.webp');
+    background: #22b292 center center no-repeat url('../img/phone.webp');
     position: absolute;
     top: 25px;
     left: 25px;
@@ -155,7 +154,7 @@
     -ms-animation: callbacker-design-circle-fill-anim 2.3s infinite ease-in-out !important;
     -o-animation: callbacker-design-circle-fill-anim 2.3s infinite ease-in-out !important;
     animation: callbacker-design-circle-fill-anim 2.3s infinite ease-in-out !important;
-    background: #5aaade repeat;
+    background: #22b292 repeat;
     width: 80px;
     height: 80px;
     top: 10px;
@@ -177,7 +176,7 @@
     position: absolute;
     background-color: transparent;
     border-radius: 100%;
-    border: 2px solid #5aaade;
+    border: 2px solid #22b292;
 }
 
 #callbacker-design:hover .callbacker-design-img-circle, #callbacker-design:hover .callbacker-design-circle-fill {
