@@ -632,6 +632,7 @@ h2 span {
     padding: 20px;
     background: linear-gradient(#2ea862, #218947);
     border-radius: 5px;
+	 cursor: pointer;
 }
 
 @media screen and (max-width: 1440px) {
