@@ -1,7 +1,4 @@
 <?php
-define('TG_TOKEN', '6167088216:AAHV9buGOJfrqYS9723LDJvli_OzBinrbJQ');
-define('TG_CHAT_ID', '435820989');
-
 function sendTelegram($msg){
     $chat_id = TG_CHAT_ID;
     $disable_web_page_preview = null;
