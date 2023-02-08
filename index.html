@@ -55,7 +55,7 @@
 								</div>
 
 								<label class="form-label">Ім'я: 
-									<input class="form-input" type="text" name="name">
+									<input class="form-input" type="text" name="name" placeholder="Ваше iм'я">
 								</label>
 								<label class="form-label">Номер телефону: 
 									<input class="form-input" type="tel" name="phone"
@@ -63,6 +63,7 @@
 										oninput="(function(event){const x=event.target.value.replace(/\D/g, '').match(/(\d{0,2})(\d{0})(\d{0,3})(\d{0,3})(\d{0,2})(\d{0,2})/);
 																	event.target.value='+38' + (x[4] ? ' (' + x[3] + ') ' : '' + x[3]) + x[4] + (x[5] ? '-' + x[5] : '') + (x[6] ? '-' + x[6] : '');})(event)"
 										pattern="^\+38\s[\(]?0(39|67|68|96|97|98|50|66|95|99|63|73|93|91|92|94)[\)]\s\d{3}[\-]\d{2}[\-]\d{2}$"
+										placeholder="Ваш телефон"
 										title="Формат: +38 (0XX) XXX-XX-XX. Перевірте правильність коду оператора."
 										required="required">
 								</label>
@@ -104,7 +105,7 @@
 							<h4 class="troubleItem-title">Може заряджати одночасно декілька пристроїв</h4>
 						</li>
 						<li class="trouble-item trouble-item_3 animation-moveLeft" style="opacity: 0;">
-							<h4 class="troubleItem-title">Зручність викорстання</h4>
+							<h4 class="troubleItem-title">Зручність використання</h4>
 						</li>
 						<li class="trouble-item trouble-item_4 animation-moveLeft" style="opacity: 0;">
 							<h4 class="troubleItem-title">Завжди стане у нагоді</h4>
@@ -241,7 +242,7 @@
 					<div class="slider-item">
 						<img src="assets/imgs/avatar2.png" class="avatar">
 						<h3 class="sliderItem-title">Михайло <span class="age"></span> </h3>
-						<p class="sliderItem-text">А я вже замовив! Користуюсь кілька тижнів! Нейомвірно корисний
+						<p class="sliderItem-text">А я вже замовив! Користуюсь кілька тижнів! Неймовірно корисний
 							пристрій! Мене все абсолютно влаштовує, від його мобільності до широкої функціональності. Argus -
 							це сила! З ним відчуваєш себе сміливо навіть при довготривалих відключеннях електроенергії. Мабудь
 							і батькам такий в село замовлю, щоб без світла не сиділи, бо все жаліються, що в домі холодно і
@@ -315,7 +316,7 @@
 								</div>
 								
 								<label class="form-label">Ім'я : 
-									<input class="form-input" type="text" name="name">
+									<input class="form-input" type="text" name="name" placeholder="Ваше iм'я">
 								</label>
 								
 								<label class="form-label">Номер телефону: 
@@ -324,6 +325,7 @@
 										oninput="(function(event){const x=event.target.value.replace(/\D/g, '').match(/(\d{0,2})(\d{0})(\d{0,3})(\d{0,3})(\d{0,2})(\d{0,2})/);
 																	event.target.value='+38' + (x[4] ? ' (' + x[3] + ') ' : '' + x[3]) + x[4] + (x[5] ? '-' + x[5] : '') + (x[6] ? '-' + x[6] : '');})(event)"
 										pattern="^\+38\s[\(]?0(39|67|68|96|97|98|50|66|95|99|63|73|93|91|92|94)[\)]\s\d{3}[\-]\d{2}[\-]\d{2}$"
+										placeholder="Ваш телефон"
 										title="Формат: +38 (0XX) XXX-XX-XX. Перевірте правильність коду оператора."
 										required="required">
 								</label>

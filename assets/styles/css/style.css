@@ -769,6 +769,7 @@ h2 span {
     display: flex;
     align-items: flex-end;
     padding: 40px 40px;
+	 transition: .3s;
 }
 
 .trouble-item_1 {
@@ -915,7 +916,7 @@ h2 span {
 
 .product-bottle {
     left: inherit;
-    right: 200px;
+    right: 100px;
     width: 100%;
     max-width: 626px;
 }
