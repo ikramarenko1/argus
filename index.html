@@ -18,217 +18,243 @@
 </head>
 <body>
 	<div class="wrap">
+
+		<!-- HEADER -->
 		<header class="order">
 			<div class="container">
 				<div class="order-left">
 					<div class="order-main animation-moveRight">
+
 						<img class="logo" src="assets/imgs/logo.png">
-						<h1 class="order-title lt0">Портативне джерело живлення <span class="order-title_green">Argus</span>
+						<h1 class="order-title">
+							Портативне джерело живлення <span class="order-title_green">Argus</span>
 						</h1>
-						<p class="order-subTitle lt1"></p>
 						<ul class="order-list">
-							<li class="orderList-item"><img alt="" class="orderList-img" src="assets/imgs/help-check.png"><span
-									class="orderList-text lt2">Потужність</span></li>
-							<li class="orderList-item"><img alt="" class="orderList-img" src="assets/imgs/help-check.png"><span
-									class="orderList-text lt3">Надійність</span></li>
-							<li class="orderList-item"><img alt="" class="orderList-img" src="assets/imgs/help-check.png"><span
-									class="orderList-text lt4">Максимальний<br>комфорт</span></li>
-						</ul><img class="product-img product-img_mob" src="assets/imgs/product-bottle.png">
+							<li class="orderList-item">
+								<img alt="" class="orderList-img" src="assets/imgs/help-check.png">
+								<span class="orderList-text">Потужність</span>
+							</li>
+							<li class="orderList-item">
+								<img alt="" class="orderList-img" src="assets/imgs/help-check.png">
+								<span	class="orderList-text">Надійність</span>
+							</li>
+							<li class="orderList-item">
+								<img alt="" class="orderList-img" src="assets/imgs/help-check.png">
+								<span	class="orderList-text">Максимальний<br>комфорт</span>
+							</li>
+						</ul>
+
 						<form class="form order_form" method="post" action="order.php">
 							<div class="container">
-								<h3 class="form-title lt5">Замовити зараз<br> <span class="form-title_green">по акції</span>
+								<h3 class="form-title">
+									Замовити зараз <br> <span class="form-title_green">по акції</span>
 								</h3>
 								<div class="prices">
-									<span class="old-prise price_old lt6">31 000 грн.</span><span
-										class="new-prise price_main lt7">22 999 грн.</span>
-								</div><label class="form-label lt9">Ім'я: <input class="form-input" type="text"
-										name="name"></label><label class="form-label lt10">Номер телефону: <input
-										class="form-input" type="tel" name="phone"
+									<span class="old-prise price_old">31 000 грн.</span>
+									<span class="new-prise price_main">22 999 грн.</span>
+								</div>
+
+								<label class="form-label">Ім'я: 
+									<input class="form-input" type="text" name="name">
+								</label>
+								<label class="form-label">Номер телефону: 
+									<input class="form-input" type="tel" name="phone"
 										onclick="(function(event){if (!event.target.value.length){event.target.value='+38';}})(event)"
 										oninput="(function(event){const x=event.target.value.replace(/\D/g, '').match(/(\d{0,2})(\d{0})(\d{0,3})(\d{0,3})(\d{0,2})(\d{0,2})/);
 																	event.target.value='+38' + (x[4] ? ' (' + x[3] + ') ' : '' + x[3]) + x[4] + (x[5] ? '-' + x[5] : '') + (x[6] ? '-' + x[6] : '');})(event)"
 										pattern="^\+38\s[\(]?0(39|67|68|96|97|98|50|66|95|99|63|73|93|91|92|94)[\)]\s\d{3}[\-]\d{2}[\-]\d{2}$"
 										title="Формат: +38 (0XX) XXX-XX-XX. Перевірте правильність коду оператора."
-										required="required"></label>
+										required="required">
+								</label>
+
 								<div class="counter">
-									<h4 class="counter-title lt11">Пропозиція закінчується через:</h4>
+									<h4 class="counter-title">Пропозиція закінчується через:</h4>
 									<div class="counter-time">
 										<div class="count count_hours">00</div>
 										<div class="count count_minutes">14</div>
 										<div class="count count_seconds">46</div>
 									</div>
-								</div><button type="submit" class="btn lt12">Замовити</button>
+								</div>
+
+								<button type="submit" class="btn">Замовити</button>
 							</div>
 						</form>
 					</div>
 				</div>
 				<div class="order-right animation-fadeIn">
-					<!--          <img class="product-img_capsules" src="imgs/product-100cupsules.png">-->
 					<img class="product-img product-img_main product-rotate" src="assets/imgs/product.png">
 				</div>
 			</div>
 		</header>
+
+		<!-- TROUBLE SECTION -->
 		<section class="trouble">
 			<div class="container">
-				<h2 class="trouble-title animation-fadeIn lt13" style="opacity: 0;">Argus дозволить забути про <span
-						class="text-red">відключення електроенергії!</span> </h2>
-				<p class="trouble-subTitle lt14">Ви без проблем зможете тримати всі ваші гаджети зарядженими, а холодильник
-					і світло включеними протягом тривалого часу! </p>
-				<div class="trouble-content">
+				<h2 class="trouble-title animation-fadeIn" style="opacity: 0;">
+					Argus дозволить забути про <span class="text-red">відключення електроенергії!</span>
+				</h2>
+				<p class="trouble-subTitle">Ви без проблем зможете тримати всі ваші гаджети зарядженими, а холодильник і світло включеними протягом тривалого часу!</p>
 
+				<div class="trouble-content">
 					<ul class="trouble-list">
 						<li class="trouble-item trouble-item_1 animation-moveLeft" style="opacity: 0;">
-							<h4 class="troubleItem-title lt16">Прогулянка з підзарядкою</h4>
+							<h4 class="troubleItem-title">Прогулянка з підзарядкою</h4>
 						</li>
 						<li class="trouble-item trouble-item_2 animation-moveLeft" style="opacity: 0;">
-							<h4 class="troubleItem-title lt17">Може заряджати одночасно декілька пристроїв</h4>
+							<h4 class="troubleItem-title">Може заряджати одночасно декілька пристроїв</h4>
 						</li>
 						<li class="trouble-item trouble-item_3 animation-moveLeft" style="opacity: 0;">
-							<h4 class="troubleItem-title lt18">Зручність викорстання</h4>
+							<h4 class="troubleItem-title">Зручність викорстання</h4>
 						</li>
 						<li class="trouble-item trouble-item_4 animation-moveLeft" style="opacity: 0;">
-							<h4 class="troubleItem-title lt19">Завжди стане у нагоді</h4>
+							<h4 class="troubleItem-title">Завжди стане у нагоді</h4>
 						</li>
 						<li class="trouble-item trouble-item_5 animation-moveLeft" style="opacity: 0;">
-							<h4 class="troubleItem-title lt20">Можна не перейматися за відключення критично необхідної техніки
+							<h4 class="troubleItem-title">Можна не перейматися за відключення критично необхідної техніки
 								на кухні</h4>
 						</li>
 						<li class="trouble-item trouble-item_6 animation-moveLeft" style="opacity: 0;">
-							<h4 class="troubleItem-title lt21">Argus — пристрій на всі випадки життя</h4>
+							<h4 class="troubleItem-title">Argus — пристрій на всі випадки життя</h4>
 						</li>
 					</ul>
 				</div>
 			</div>
 		</section>
+
+		<!-- NOT FOR EACH SECTION / ПЕРЕВАГИ / ПРЕИМУЩЕСТВА -->
 		<section class="notForEach">
 			<div class="container">
-				<h2 class="notForEach-title animation-fadeIn lt22" style="opacity: 0;">Переваги, які ви отримаєте разом з
-					<span class="text-red">ARGUS</span> </h2>
+				<h2 class="notForEach-title animation-fadeIn" style="opacity: 0;">
+					Переваги, які ви отримаєте разом з <span class="text-red">ARGUS</span> 
+				</h2>
+
 				<div class="notForEach-main">
 					<div class="notForEach-item notForEach-item_1 animation-moveRight" style="opacity: 0;">
 						<div class="notForEach-container">
-
-							<p class="notForEach-text animation-fadeIn lt24" style="opacity: 0;">З цим генератором Вам не
+							<p class="notForEach-text animation-fadeIn" style="opacity: 0;">З цим генератором Вам не
 								доведеться шукати розетку для комп'ютера або телефону. Ви можете підключити велику кількість
 								різних пристроїв без необхідності тягти дроти до найближчої розетки.</p>
-
 						</div>
 					</div>
 					<div class="notForEach-item notForEach-item_2 animation-moveRight" style="opacity: 0;">
 						<div class="notForEach-container">
-
-							<p class="notForEach-text animation-fadeIn lt28" style="opacity: 0;">При використанні генератора як
+							<p class="notForEach-text animation-fadeIn" style="opacity: 0;">При використанні генератора як
 								ДБЖ Вам достатньо підключити його до розетки 220В та використовувати його як джерело
 								безперебійного живлення для інших пристроїв.</p>
-
 						</div>
 					</div>
 					<div class="notForEach-item notForEach-item_3 animation-moveRight" style="opacity: 0;">
 						<div class="notForEach-container">
-
-							<p class="notForEach-text animation-fadeIn lt32" style="opacity: 0;">Ви можете підключити
+							<p class="notForEach-text animation-fadeIn" style="opacity: 0;">Ви можете підключити
 								комп'ютери, телефони, міні-холодильники, стерео-системи, вентилятори, переносні лампи,
 								телевізори, освітлювальні прилади та іншу техніку.</p>
-
 						</div>
 					</div>
 					<div class="notForEach-item notForEach-item_4 animation-moveRight" style="opacity: 0;">
 						<div class="notForEach-container">
-
-							<p class="notForEach-text animation-fadeIn lt36" style="opacity: 0;">Без шуму, без диму, ви можете
+							<p class="notForEach-text animation-fadeIn" style="opacity: 0;">Без шуму, без диму, ви можете
 								заряджати електропристрої та залишатися на зв'язку. Немає більше необхідності переживати через
 								відсутність енергії у вашому будинку!</p>
-
 						</div>
 					</div>
 				</div>
 			</div>
 		</section>
+
+		<!-- HELP SECTION  -->
 		<section class="help">
 			<div class="container">
-				<div class="product-block animation-moveRight" style="opacity: 0;"><img class="product-bottle"
-						src="assets/imgs/product-bottle.png"></div>
+				<div class="product-block animation-moveRight" style="opacity: 0;">
+					<img class="product-bottle" src="assets/imgs/product.png">
+				</div>
+
 				<div class="help-right">
-					<h2 class="help-title animation-fadeIn lt39" style="opacity: 0;">AGRUS – <span
-							class="text-green">виручить вас у будь-якому місці в будь-який час!
-
-						</span> </h2>
-
+					<h2 class="help-title animation-fadeIn" style="opacity: 0;">
+						ARGUS – <span class="text-green">виручить вас у будь-якому місці в будь-який час!</span>
+					</h2>
 					<ul class="help-list">
 						<li class="helpList-item animation-moveLeft" style="opacity: 0;">
 							<img class="helpList-img" src="assets/imgs/help-check.png">
-							<p class="helpList-text lt41"><b>Заряд акумуляторної батареї:</b><br>
-
+							<p class="helpList-text">
+								<b>Заряд акумуляторної батареї:</b><br>
 								540Вт г (140 Аг/10.8 В)
-								Літій-іонна акумуляторна батарея</p>
+								Літій-іонна акумуляторна батарея
+							</p>
 						</li>
 						<li class="helpList-item animation-moveLeft" style="opacity: 0;">
 							<img class="helpList-img" src="assets/imgs/help-check.png">
-							<p class="helpList-text lt42"><b>Час повної зарядки:</b><br>
-
-								24 В постійного струму / 3.75А: близько 6 годин</p>
+							<p class="helpList-text">
+								<b>Час повної зарядки:</b><br>
+								24 В постійного струму / 3.75А: близько 6 годин
+							</p>
 						</li>
 						<li class="helpList-item animation-moveLeft" style="opacity: 0;">
 							<img class="helpList-img" src="assets/imgs/help-check.png">
-							<p class="helpList-text lt43"><b>Робоча температура:</b><br>
-
-								-10 ℃ ~ 40 ℃</p>
+							<p class="helpList-text">
+								<b>Робоча температура:</b><br>
+								-10 ℃ ~ 40 ℃
+							</p>
 						</li>
 						<li class="helpList-item animation-moveLeft" style="opacity: 0;">
 							<img class="helpList-img" src="assets/imgs/help-check.png">
-							<p class="helpList-text lt44"><b>Розмір виробу:</b><br>
-
-								256*169*166мм</p>
+							<p class="helpList-text">
+								<b>Розмір виробу:</b><br>
+								256*169*166мм
+							</p>
 						</li>
 						<li class="helpList-item animation-moveLeft" style="opacity: 0;">
 							<img class="helpList-img" src="assets/imgs/help-check.png">
-							<p class="helpList-text lt45"><b>Вага виробу:</b><br>
-
+							<p class="helpList-text">
+								<b>Вага виробу:</b><br>
 								Близько 5кг (з упаковкою та приладдям)
 							</p>
 						</li>
 						<li class="helpList-item animation-moveLeft" style="opacity: 0;">
 							<img class="helpList-img" src="assets/imgs/help-check.png">
-							<p class="helpList-text lt46"><b>Вихід USB:</b><br>
-
-								2*5В/2.4 А, 1*QC3.0 18Вт, 1*ТИП -18Вт</p>
+							<p class="helpList-text">
+								<b>Вихід USB:</b><br>
+								2*5В/2.4 А, 1*QC3.0 18Вт, 1*ТИП -18Вт
+							</p>
 						</li>
 					</ul>
 				</div>
 			</div>
 		</section>
 
-
+		<!-- COMMENTS -->
 		<section class="comments">
 			<div class="container">
-				<h2 class="comments-title lt62" style="opacity: 0;">Коментарі щасливих клієнтів</h2>
+				<h2 class="comments-title" style="opacity: 0;">Коментарі щасливих клієнтів</h2>
+
 				<div class="slider">
 					<div class="slider-item">
 						<img src="assets/imgs/avatar1.png" class="avatar">
-						<h3 class="sliderItem-title lt69">Артур <span class="age"></span> </h3>
-						<p class="sliderItem-text lt70">Переносний акумулятор Argus - це щось! Далеко ходити не треба, щоб
+						<h3 class="sliderItem-title">Артур <span class="age"></span> </h3>
+						<p class="sliderItem-text">Переносний акумулятор Argus - це щось! Далеко ходити не треба, щоб
 							привести приклад, як корисно мати такий апарат у себе під рукою. З постійними відключеннями світла
 							страшно купувати продукти на довгий термін, які можуть зіпсуватися прямо в холодильнику. З Argus
 							цього боятися не треба, можна запитати електроенергією і холодильник, і мікрохвильовку і навіть
 							пральну машину</p>
 						<img src="assets/imgs/stars.png" class="stars">
 					</div>
+
 					<div class="slider-item">
 						<img src="assets/imgs/avatar2.png" class="avatar">
-						<h3 class="sliderItem-title lt71">Михайло <span class="age"></span> </h3>
-						<p class="sliderItem-text lt72">А я вже замовив! Користуюсь кілька тижнів! Нейомвірно корисний
+						<h3 class="sliderItem-title">Михайло <span class="age"></span> </h3>
+						<p class="sliderItem-text">А я вже замовив! Користуюсь кілька тижнів! Нейомвірно корисний
 							пристрій! Мене все абсолютно влаштовує, від його мобільності до широкої функціональності. Argus -
 							це сила! З ним відчуваєш себе сміливо навіть при довготривалих відключеннях електроенергії. Мабудь
 							і батькам такий в село замовлю, щоб без світла не сиділи, бо все жаліються, що в домі холодно і
 							харчі псуються!!</p>
 						<img src="assets/imgs/stars.png" class="stars">
 					</div>
+
 					<div class="slider-item">
 						<img src="assets/imgs/avatar3.png" class="avatar">
-						<h3 class="sliderItem-title lt73">Mаксим <span class="age"></span> </h3>
-						<p class="sliderItem-text lt74">Я дуже довго вивчав різні переносні акамулятори і зупинився саме на
+						<h3 class="sliderItem-title">Mаксим <span class="age"></span> </h3>
+						<p class="sliderItem-text">Я дуже довго вивчав різні переносні акамулятори і зупинився саме на
 							Argus. Мужики, що розуміються на характеристиках подібних пристроїв мене зрозуміють! А ціна яка!
-							Мабудь найкращий варіант на сьогоднішній день! З таким навіть в ліс підти не страшно, все заряджає,
+							Мабудь найкращий варіант на сьогоднішній день! З таким навіть в ліс піти не страшно, все заряджає,
 							вистачає надовго, не димить, не шумить, головне що можна тримати в домі! В цілому, дуже і дуже
 							круто! Рекомендую всім, хто сумніваюється! </p>
 						<img src="assets/imgs/stars.png" class="stars">
@@ -238,84 +264,109 @@
 				<div class="alarm-block">
 					<div class="alarm">
 						<div class="alarm-left">
-							<h3 class="alarm-title lt85">УВАГА!<br>ОБОВ'ЯЗКОВО ОЗНАЙОМТЕСЯ</h3>
+							<h3 class="alarm-title">УВАГА!<br>ОБОВ'ЯЗКОВО ОЗНАЙОМТЕСЯ</h3>
 						</div>
+
 						<div class="alarm-right">
-							<p class="alarm-text lt86"> Техніка, що підключається, <span class="alarm-bold">не повинна
-									перевищувати потужності Argus!</span> </p>
+							<p class="alarm-text"> 
+								Техніка, що підключається, <span class="alarm-bold">не повинна перевищувати потужності Argus!</span>
+							</p>
 						</div>
 					</div>
 				</div>
 			</div>
 		</section>
 
+		<!-- ORDER FORM -->
 		<section class="order order_bottom">
 			<div class="container">
 				<div class="order-left animation-fadeIn" style="opacity: 0;">
 					<div class="order-main animation-moveRight">
 						<img class="logo" src="assets/imgs/logo.png">
-						<h1 class="order-title lt87">Портативне джерело живлення <span class="order-title_green">Argus</span>
+						<h1 class="order-title">
+							Портативне джерело живлення <span class="order-title_green">Argus</span>
 						</h1>
 
 						<ul class="order-list">
-							<li class="orderList-item"><img alt="" class="orderList-img" src="assets/imgs/help-check.png"><span
-									class="orderList-text lt89">Потужність</span></li>
-							<li class="orderList-item"><img alt="" class="orderList-img" src="assets/imgs/help-check.png"><span
-									class="orderList-text lt90">Надійність</span></li>
-							<li class="orderList-item"><img alt="" class="orderList-img" src="assets/imgs/help-check.png"><span
-									class="orderList-text lt91">Максимальний<br>комфорт</span></li>
-						</ul><img class="product-img product-img_mob" src="assets/imgs/product-bottle.png">
+							<li class="orderList-item">
+								<img alt="" class="orderList-img" src="assets/imgs/help-check.png">
+								<span class="orderList-text">Потужність</span>
+							</li>
+							<li class="orderList-item">
+								<img alt="" class="orderList-img" src="assets/imgs/help-check.png">
+								<span class="orderList-text">Надійність</span>
+							</li>
+							<li class="orderList-item">
+								<img alt="" class="orderList-img" src="assets/imgs/help-check.png">
+								<span	class="orderList-text">Максимальний<br>комфорт</span>
+							</li>
+						</ul>
+						
+						<!-- <img class="product-img product-img_mob" src="assets/imgs/product-bottle.png"> -->
 						<form class="form order_form" method="post" action="order.php" id="toform">
 							<div class="container">
-								<h3 class="form-title lt92">Замовити зараз<br> <span class="form-title_green">по акції</span>
+								<h3 class="form-title">
+									Замовити зараз<br> <span class="form-title_green">по акції</span>
 								</h3>
+
 								<div class="prices">
-									<span class="old-prise price_old lt93">31 000 грн.</span><span
-										class="new-prise price_main lt94">22 999 грн.</span>
-								</div><label class="form-label lt96">Ім'я : <input class="form-input" type="text"
-										name="name"></label><label class="form-label lt97">Номер телефону: <input
-										class="form-input" type="tel" name="phone"
+									<span class="old-prise price_old">31 000 грн.</span>
+									<span	class="new-prise price_main">22 999 грн.</span>
+								</div>
+								
+								<label class="form-label">Ім'я : 
+									<input class="form-input" type="text" name="name">
+								</label>
+								
+								<label class="form-label">Номер телефону: 
+									<input class="form-input" type="tel" name="phone"
 										onclick="(function(event){if (!event.target.value.length){event.target.value='+38';}})(event)"
 										oninput="(function(event){const x=event.target.value.replace(/\D/g, '').match(/(\d{0,2})(\d{0})(\d{0,3})(\d{0,3})(\d{0,2})(\d{0,2})/);
 																	event.target.value='+38' + (x[4] ? ' (' + x[3] + ') ' : '' + x[3]) + x[4] + (x[5] ? '-' + x[5] : '') + (x[6] ? '-' + x[6] : '');})(event)"
 										pattern="^\+38\s[\(]?0(39|67|68|96|97|98|50|66|95|99|63|73|93|91|92|94)[\)]\s\d{3}[\-]\d{2}[\-]\d{2}$"
 										title="Формат: +38 (0XX) XXX-XX-XX. Перевірте правильність коду оператора."
-										required="required"></label>
+										required="required">
+								</label>
+
 								<div class="counter">
-									<h4 class="counter-title lt98">Пропозиція закінчується через:</h4>
+									<h4 class="counter-title">Пропозиція закінчується через:</h4>
 									<div class="counter-time">
 										<div class="count count_hours">00</div>
 										<div class="count count_minutes">14</div>
 										<div class="count count_seconds">46</div>
 									</div>
-								</div><button type="submit" class="btn lt99">Замовити</button>
+								</div>
+								
+								<button type="submit" class="btn">Замовити</button>
 							</div>
 						</form>
 					</div>
 				</div>
+
 				<div class="order-right animation-fadeIn animation-moveLeft" style="opacity: 0;">
 					<img class="product-img" src="assets/imgs/product.png">
 				</div>
 			</div>
 		</section>
 
+		<!-- COMEBACKER  -->
 		<div class="screenLock" style="height: 100vh; display: none;">
 			<div class="msg">
 
 				<div class="iframe" id="form">
-					<div class="close">
-					</div><br>
-
+					<div class="close"></div>
+					<br>
 					<div class="iframe_wrap">
 						<div class="iframe_img-box">
 							<img src="assets/imgs/product.png" alt="product" class="iframe_img">
 						</div>
+
 						<div class="iframe_body">
 							<h3>Почекай!</h3>
 							<p>
 								Не пропусти можливість замовити портативне джерело живлення <br><span>ARGUS</span><br> по акції!
 							</p>
-							<a href="#toform" class="link-btn btn lt12">Замовити</a>
+							<a href="#toform" class="link-btn btn">Замовити</a>
 						</div>
 					</div>
 				</div>
@@ -345,10 +396,11 @@
 			});
 		</script>
 
+		<!-- CALLBACKER -->
 		<div id="callbacker" class="modal-callbacker">
 			<div class="modal-callbacker-block">
 				<div class="icon-close-callbacker"></div>
-				<div class="title-callbacker"> </div>
+				<div class="title-callbacker"></div>
 				<div class="content-callbacker">
 					<div class="padding-callbacker">
 						<p>Хочете, зателефонуємо Вам?</p>
